@@ -59,6 +59,17 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 
 ---
 
+## 📂 Data Management & Naming Convention
+`data/raw_csv/` に蓄積するGarminデータは、解析の再現性を高めるため以下の形式で統一します。
+
+- **Format:** `YYYYMMDD_種別_場所.csv`
+- **Examples:**
+    - `20260428_T-run_kaike.csv` （閾値走/皆生）
+    - `20260501_E-jog_yumigahama.csv` （ジョグ/弓ヶ浜）
+    - `20260503_LSD_20km.csv` （ロング走）
+
+---
+
 ## 📜 Disclaimer
 本プロジェクトのアドバイスは、AI（Gemini）と実績ある理論に基づいたものですが、最終的な体調判断は常に自分自身の感覚を最優先します。痛みがある場合は「攻めの休養」を選択します。
 
