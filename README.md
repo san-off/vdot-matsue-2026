@@ -63,17 +63,6 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 `data/raw_csv/` に蓄積するGarminデータは、解析の再現性を高めるため以下の形式で統一します。
 
 - **Format:** `YYYYMMDD_種別_場所.csv`
-- **Examples:**
-    - `20260428_T-run_kaike.csv` （閾値走/皆生）
-    - `20260501_E-jog_yumigahama.csv` （ジョグ/弓ヶ浜）
-    - `20260503_LSD_20km.csv` （ロング走）
-
----
-
-## 📂 Data Management & Naming Convention
-`data/raw_csv/` に蓄積するデータは、以下の形式で統一します。
-
-- **Format:** `YYYYMMDD_種別_場所.csv`
 
 ### 📍 Location Aliases (場所の定義)
 入力を簡略化するため、以下のエイリアスを使用します。
@@ -85,6 +74,12 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 ### Examples
 - `20260506_E-jog_inda-home.csv`
 - `20260515_T-run_kaike.csv`
+
+### ⚠️ Data Analysis Notes (分析時の注意点)
+データの正確性を期すため、解析（手動・AI共）の際は以下に注意してください。
+
+- **概要行の除外:** GarminからエクスポートしたCSVの末尾には、全ラップの合計値（概要行）が含まれている場合があります。
+- **二重カウントの防止:** 合計距離や平均ペースを算出する際は、この最終行を計算対象から除外するか、合計値のみを使用するようにしてください。これを怠ると、数値が実際の2倍（例：21kmが42km）として計算されるリスクがあります。
 
 ---
 
