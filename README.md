@@ -79,11 +79,12 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 
 ### 📍 Location Aliases (場所の定義)
 - `inda-home`: 職場（陰田町）から自宅（両三柳）への帰宅ランルート
-- `kaike`: 皆生・弓ヶ浜サイクリングロード周辺
+- `kaike`: 皆生周辺（皆生・弓ヶ浜サイクリングロード）
+- `yumigahama`: 弓ヶ浜周辺（皆生・弓ヶ浜サイクリングロード）
 - `city`: 米子市街地巡回ルート
 - `track`: どらドラパーク米子陸上競技場（東山）
 - `yonago`: 気象庁・米子観測所
-
+- **その他 (Googleフォームでの自由入力時):** 遠征先等で「その他」を使用する場合は、Garminのファイル名と自動突合させるため、必ず英数字のエイリアス（例：`hiruzen`）で入力すること。
 ---
 
 ## ⚠️ Data Analysis Notes (分析時の注意点)
