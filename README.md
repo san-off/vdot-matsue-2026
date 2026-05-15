@@ -46,6 +46,7 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 
 ## 🛠 Project Structure
 - `/data/raw_csv/`: Garminからエクスポートしたアクティビティデータ
+- `/data/weather/`: 気象庁から取得した実績データ（[過去の気象データ・ダウンロード](https://www.data.jma.go.jp/risk/obsdl/index.php)）
 - `/logs/`: [5月ランニングログ.xlsx] (スプレッドシートへのリンクまたは保存場所)
 - `REPORTS.md`: 毎月15日・末日のVDOT定期検診の結果まとめ
 
