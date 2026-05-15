@@ -61,14 +61,20 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 ---
 
 ## 📂 Data Management & Naming Convention
-本プロジェクトでは、解析の再現性と気象実績データとの正確な照合を行うため、以下の命名規則を厳守します。
+
+### 📊 Google Spreadsheet (All_Logs)
+手動入力の負担を最小限にしつつ、精密な自動分析を可能にするため、以下の7カラムで構成します。
+> **日付 | 開始時刻 | 種別 | 場所 | 使用シューズ | RPE | 主観メモ**
+
+- **開始時刻:** 気象データとの照合およびGarminデータ特定のための重要項目。
+- **場所:** 走行環境の特定とファイル特定のためのエイリアス（kaike等）を入力。
 
 ### 🏃‍♂️ Garmin Data (raw_csv)
 - **Format:** `YYYYMMDDHHMM_種別_場所.csv`
 - **Example:** `202605150600_T-run_kaike.csv`
 
 ### 🌤 Weather Data (weather)
-- **Format:** `YYYYMMDD_YYYYMMDD_weather_場所.csv`（開始日_終了日）
+- **Format:** `YYYYMMDD_YYYYMMDD_weather_場所.csv`
 - **Example:** `20260429_20260515_weather_yonago.csv`
 
 ### 📍 Location Aliases (場所の定義)
