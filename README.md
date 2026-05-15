@@ -35,7 +35,7 @@ Data-driven training logs for Matsue Castle Marathon 2026 (Target: Sub 3:30 / VD
 - **Daily Trainer (Base/Stability):**
     - **Brooks Ghost 16** (★購入済：接地感覚の教育と安定した走行の軸)
 - **Recovery/Easy:**
-    - **New Balance FreshFoam x v14** (足を甘やかし、疲労を抜く)
+    - **New Balance FreshFoam x 1080 v14** (足を甘やかし、疲労を抜く)
 - **Speed/Tempo:**
     - **New Balance FuelCell Rebel v4** (反発を全身で制御する練習用)
 - **Super Trainer (Long/Race Candidate):**
